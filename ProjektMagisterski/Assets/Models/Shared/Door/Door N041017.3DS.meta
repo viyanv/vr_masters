@@ -1,0 +1,179 @@
+fileFormatVersion: 2
+guid: 0da703b5a098ce444bccd70bd85112a7
+timeCreated: 1525359179
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Box007
+    100002: Box008
+    100004: Box009
+    100006: Box010
+    100008: Cylinder00
+    100010: Cylinder01
+    100012: Cylinder02
+    100014: Cylinder03
+    100016: //RootNode
+    100018: Object003
+    100020: Object004
+    100022: Sphere003
+    100024: Sphere004
+    400000: Box007
+    400002: Box008
+    400004: Box009
+    400006: Box010
+    400008: Cylinder00
+    400010: Cylinder01
+    400012: Cylinder02
+    400014: Cylinder03
+    400016: //RootNode
+    400018: Object003
+    400020: Object004
+    400022: Sphere003
+    400024: Sphere004
+    2100000: st wood
+    2100002: standart metal
+    2100004: st gold
+    2100006: standart meta1
+    2100008: Plastic
+    2300000: Box007
+    2300002: Box008
+    2300004: Box009
+    2300006: Box010
+    2300008: Cylinder00
+    2300010: Cylinder01
+    2300012: Cylinder02
+    2300014: Cylinder03
+    2300016: Object003
+    2300018: Object004
+    2300020: Sphere003
+    2300022: Sphere004
+    3300000: Box007
+    3300002: Box008
+    3300004: Box009
+    3300006: Box010
+    3300008: Cylinder00
+    3300010: Cylinder01
+    3300012: Cylinder02
+    3300014: Cylinder03
+    3300016: Object003
+    3300018: Object004
+    3300020: Sphere003
+    3300022: Sphere004
+    4300000: Box008
+    4300002: Object003
+    4300004: Object004
+    4300006: Box007
+    4300008: Cylinder00
+    4300010: Cylinder01
+    4300012: Sphere003
+    4300014: Sphere004
+    4300016: Cylinder02
+    4300018: Cylinder03
+    4300020: Box009
+    4300022: Box010
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plastic
+    second: {fileID: 2100000, guid: 544ca75da0e8bae408493888ab1a4168, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: st gold
+    second: {fileID: 2100000, guid: 72f979c68f2262b4f8beed780f888392, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: st wood
+    second: {fileID: 2100000, guid: e8725e9069b04714ab1866360dc7016e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: standart meta1
+    second: {fileID: 2100000, guid: 7b9a5d60644e2b948b1da062878e15ad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: standart metal
+    second: {fileID: 2100000, guid: 82737caa65c18fb42b0a64f4c55e2e24, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

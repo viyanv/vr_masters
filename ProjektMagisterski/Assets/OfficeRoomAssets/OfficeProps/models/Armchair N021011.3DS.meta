@@ -1,0 +1,267 @@
+fileFormatVersion: 2
+guid: fbd0dd065bd836848842f14fc6ffc471
+timeCreated: 1525625886
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: armchair10
+    100004: armchair11
+    100006: armchair12
+    100008: armchair13
+    100010: armchair14
+    100012: armchair15
+    100014: armchair16
+    100016: armchair17
+    100018: armchair18
+    100020: armchair_0
+    100022: armchair_1
+    100024: armchair_2
+    100026: armchair_3
+    100028: armchair_4
+    100030: armchair_5
+    100032: armchair_6
+    100034: armchair_7
+    100036: armchair_8
+    100038: armchair_9
+    100040: armchair_o
+    100042: Cylinder00
+    100044: Cylinder01
+    100046: Cylinder02
+    100048: Line008
+    100050: Line009
+    100052: Line010
+    100054: Plane019
+    100056: Plane020
+    100058: Plane021
+    100060: Plane022
+    100062: Plane023
+    100064: Plane024
+    100066: Plane025
+    100068: Plane026
+    100070: Plane027
+    400000: //RootNode
+    400002: armchair10
+    400004: armchair11
+    400006: armchair12
+    400008: armchair13
+    400010: armchair14
+    400012: armchair15
+    400014: armchair16
+    400016: armchair17
+    400018: armchair18
+    400020: armchair_0
+    400022: armchair_1
+    400024: armchair_2
+    400026: armchair_3
+    400028: armchair_4
+    400030: armchair_5
+    400032: armchair_6
+    400034: armchair_7
+    400036: armchair_8
+    400038: armchair_9
+    400040: armchair_o
+    400042: Cylinder00
+    400044: Cylinder01
+    400046: Cylinder02
+    400048: Line008
+    400050: Line009
+    400052: Line010
+    400054: Plane019
+    400056: Plane020
+    400058: Plane021
+    400060: Plane022
+    400062: Plane023
+    400064: Plane024
+    400066: Plane025
+    400068: Plane026
+    400070: Plane027
+    2100000: ____
+    2100002: chrome08 210
+    2100004: w  mahagon
+    2300000: armchair10
+    2300002: armchair11
+    2300004: armchair12
+    2300006: armchair13
+    2300008: armchair14
+    2300010: armchair15
+    2300012: armchair16
+    2300014: armchair17
+    2300016: armchair18
+    2300018: armchair_0
+    2300020: armchair_1
+    2300022: armchair_2
+    2300024: armchair_3
+    2300026: armchair_4
+    2300028: armchair_5
+    2300030: armchair_6
+    2300032: armchair_7
+    2300034: armchair_8
+    2300036: armchair_9
+    2300038: armchair_o
+    2300040: Cylinder00
+    2300042: Cylinder01
+    2300044: Cylinder02
+    2300046: Line008
+    2300048: Line009
+    2300050: Line010
+    2300052: Plane019
+    2300054: Plane020
+    2300056: Plane021
+    2300058: Plane022
+    2300060: Plane023
+    2300062: Plane024
+    2300064: Plane025
+    2300066: Plane026
+    2300068: Plane027
+    3300000: armchair10
+    3300002: armchair11
+    3300004: armchair12
+    3300006: armchair13
+    3300008: armchair14
+    3300010: armchair15
+    3300012: armchair16
+    3300014: armchair17
+    3300016: armchair18
+    3300018: armchair_0
+    3300020: armchair_1
+    3300022: armchair_2
+    3300024: armchair_3
+    3300026: armchair_4
+    3300028: armchair_5
+    3300030: armchair_6
+    3300032: armchair_7
+    3300034: armchair_8
+    3300036: armchair_9
+    3300038: armchair_o
+    3300040: Cylinder00
+    3300042: Cylinder01
+    3300044: Cylinder02
+    3300046: Line008
+    3300048: Line009
+    3300050: Line010
+    3300052: Plane019
+    3300054: Plane020
+    3300056: Plane021
+    3300058: Plane022
+    3300060: Plane023
+    3300062: Plane024
+    3300064: Plane025
+    3300066: Plane026
+    3300068: Plane027
+    4300000: Plane019
+    4300002: Plane020
+    4300004: Plane021
+    4300006: Plane022
+    4300008: Plane023
+    4300010: Plane024
+    4300012: Line008
+    4300014: Plane025
+    4300016: armchair_o
+    4300018: armchair_0
+    4300020: armchair_1
+    4300022: armchair_2
+    4300024: armchair_3
+    4300026: armchair_4
+    4300028: armchair_5
+    4300030: armchair_6
+    4300032: armchair_7
+    4300034: armchair_8
+    4300036: armchair_9
+    4300038: armchair10
+    4300040: armchair11
+    4300042: armchair12
+    4300044: armchair13
+    4300046: armchair14
+    4300048: armchair15
+    4300050: armchair16
+    4300052: armchair17
+    4300054: armchair18
+    4300056: Cylinder00
+    4300058: Plane026
+    4300060: Line009
+    4300062: Line010
+    4300064: Cylinder01
+    4300066: Cylinder02
+    4300068: Plane027
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
