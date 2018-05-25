@@ -1,0 +1,19 @@
+Rooms setup:
+------------
+ + Retro
+ + Kitchen
+ + Sports
+ + Training
+
+Audios:
+------------
+ + Ambient music from speakers (possible to turn on/turn off)
+ + Sounds of collisions
+
+Other:
+------------
+ + Changing rooms
+ + Score counting
+ + Time counting
+ + Pop-up texts
+ + Sudden actions
