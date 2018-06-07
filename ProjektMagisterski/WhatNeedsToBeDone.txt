@@ -1,6 +1,5 @@
 Rooms setup:
-------------
- + Retro
+------------ 
  + Kitchen
  + Sports
  + Training
