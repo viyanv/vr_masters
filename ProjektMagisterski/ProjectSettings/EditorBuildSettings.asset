@@ -4,4 +4,22 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Levels/OfficeRoom.unity
+    guid: c21deb2d647b90e4d8a05df15ee8ee1f
+  - enabled: 1
+    path: Assets/Scenes/Levels/Bedroom.unity
+    guid: a7f775d5a21aef547822d12497c2dca3
+  - enabled: 1
+    path: Assets/Scenes/Levels/Kitchen.unity
+    guid: 13cdcb8a6d89d094e83c59f6deb4895c
+  - enabled: 1
+    path: Assets/Scenes/Levels/Pre.unity
+    guid: 4e76f87835fa04344bf73081b7f252f1
+  - enabled: 1
+    path: Assets/Scenes/Levels/Retro.unity
+    guid: 96e9018c3660c034abb63cc9412f24cd
+  - enabled: 1
+    path: Assets/Scenes/Levels/Tutorial.unity
+    guid: 4473f8585dd478e48ab789488c4965e9

@@ -7,14 +7,11 @@ public class OnTriggerLoadLevel : MonoBehaviour {
 
     [SerializeField] private string loadLevel;
 
-    void OnTriggerStay(Collider other)
+    void OnTriggerEnter(Collider other)
     {
         if(other.CompareTag("Player"))
         {
-            if(Input.GetButtonDown("Use"))
-            {
-                SceneManager.LoadScene(loadLevel);
-            }
+            SceneManager.LoadScene(loadLevel);
         }
     }
 
