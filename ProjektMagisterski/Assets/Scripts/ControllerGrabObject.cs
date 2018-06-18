@@ -52,8 +52,9 @@ public class ControllerGrabObject : MonoBehaviour {
         {
             return;
         }
-
+        
         collidingObject = null;
+        
     }
 
     private void GrabObject()
@@ -82,6 +83,11 @@ public class ControllerGrabObject : MonoBehaviour {
 
             objectInHand.GetComponent<Rigidbody>().velocity = Controller.velocity;
             objectInHand.GetComponent<Rigidbody>().angularVelocity = Controller.angularVelocity;
+        }
+        if (objectInHand.CompareTag("orb"))
+        {
+            Timer.score += 1;
+            Destroy(objectInHand);
         }
         objectInHand = null;
     }

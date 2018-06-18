@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Timer : MonoBehaviour {
     float timePassed = 0;
+    public static int score = 0;
 
 	// Use this for initialization
 	void Start () {
@@ -17,6 +18,6 @@ public class Timer : MonoBehaviour {
 
     void OnGUI()
     {
-        GUILayout.Label("Czas: " + (int)timePassed + "\nPunkty: ");
+        GUILayout.Label("Czas: " + (int)timePassed + "\nPunkty: " + score);
     }
 }

@@ -1,0 +1,4 @@
+Karta graficzna - NVIDIA GeForce GTX 1060 6GB MSI
+Procesor - Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz
+Pamiêæ - 16GB RAM
+MOBO - MSI H110M PRO-D (MS-7996)
