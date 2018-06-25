@@ -6,7 +6,7 @@ public class ControllerGrabObject : MonoBehaviour {
 
     //1
     private SteamVR_TrackedObject trackedObj;
-
+    public AudioSource orbSound;
     //2
     private SteamVR_Controller.Device Controller
     {
@@ -87,6 +87,7 @@ public class ControllerGrabObject : MonoBehaviour {
         if (objectInHand.CompareTag("orb"))
         {
             Timer.score += 1;
+            orbSound.Play();
             Destroy(objectInHand);
         }
         objectInHand = null;
@@ -112,4 +113,14 @@ public class ControllerGrabObject : MonoBehaviour {
         }
 		
 	}
+
+    void FixedUpdate()
+    {
+        if (objectInHand != null)
+        {
+            objectInHand.GetComponent<Rigidbody>().velocity = Vector3.zero;
+            objectInHand.GetComponent<Rigidbody>().angularVelocity = Vector3.zero;
+        }
+        
+    }
 }
