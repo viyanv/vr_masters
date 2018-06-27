@@ -8,6 +8,8 @@ TagManager:
   - projectile
   - droppable
   - orb
+  - kettle
+  - orb2kettle
   layers:
   - Default
   - TransparentFX

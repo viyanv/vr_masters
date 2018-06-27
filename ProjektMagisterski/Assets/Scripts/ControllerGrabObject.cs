@@ -7,6 +7,29 @@ public class ControllerGrabObject : MonoBehaviour {
     //1
     private SteamVR_TrackedObject trackedObj;
     public AudioSource orbSound;
+    public AudioSource kettleSoundEnd;
+    public AudioSource kettleSoundAll;
+    public bool alreadyClicked = false;
+
+    public float fadeTime = 1; // fade time in seconds
+ public void FadeSound() { 
+     if(fadeTime == 0) { 
+         kettleSoundAll.volume = 0;
+         return;
+     }
+     StartCoroutine(_FadeSound()); 
+ }
+ 
+ IEnumerator _FadeSound() {
+     float t = fadeTime;
+     while (t > 0) {
+         yield return null;
+         t-= Time.deltaTime/2;
+         kettleSoundAll.volume = t/fadeTime;
+     }
+     yield break;
+ }
+
     //2
     private SteamVR_Controller.Device Controller
     {
@@ -64,6 +87,17 @@ public class ControllerGrabObject : MonoBehaviour {
 
         var joint = AddFixedJoint();
         joint.connectedBody = objectInHand.GetComponent<Rigidbody>();
+
+        if (objectInHand.CompareTag("kettle"))
+        {
+            if (!alreadyClicked)
+            {
+                FadeSound();
+                alreadyClicked = true;
+            }
+            
+        }
+
     }
 
     private FixedJoint AddFixedJoint()
@@ -88,6 +122,13 @@ public class ControllerGrabObject : MonoBehaviour {
         {
             Timer.score += 1;
             orbSound.Play();
+            Destroy(objectInHand);
+        }
+        if (objectInHand.CompareTag("orb2kettle"))
+        {
+            Timer.score += 1;
+            orbSound.Play();
+            kettleSoundAll.Play();
             Destroy(objectInHand);
         }
         objectInHand = null;
