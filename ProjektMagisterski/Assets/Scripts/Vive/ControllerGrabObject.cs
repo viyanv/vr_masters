@@ -9,7 +9,7 @@ public class ControllerGrabObject : MonoBehaviour {
     public AudioSource orbSound;
     public AudioSource kettleSoundEnd;
     public AudioSource kettleSoundAll;
-    public bool alreadyClicked = false;
+    public static bool alreadyClicked = false;
 
     public float fadeTime = 1; // fade time in seconds
  public void FadeSound() { 
@@ -120,13 +120,13 @@ public class ControllerGrabObject : MonoBehaviour {
         }
         if (objectInHand.CompareTag("orb"))
         {
-            Timer.score += 1;
+            TimerVive.score += 1;
             orbSound.Play();
             Destroy(objectInHand);
         }
         if (objectInHand.CompareTag("orb2kettle"))
         {
-            Timer.score += 1;
+            TimerVive.score += 1;
             orbSound.Play();
             kettleSoundAll.Play();
             Destroy(objectInHand);

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Zawiasy2 : MonoBehaviour {
+public class ZawiasyVive : MonoBehaviour {
 
     //1
     private SteamVR_TrackedObject trackedObj;
