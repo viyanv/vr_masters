@@ -35,11 +35,11 @@ public class RoomChanger : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
-    {
-        if (LZWPlib.Core.Instance.isServer && Input.GetKeyDown(KeyCode.R))
-            jakas_metoda(1);
-    }
+    //void Update()
+    //{
+    //    if (LZWPlib.Core.Instance.isServer && Input.GetKeyDown(KeyCode.R))
+    //        jakas_metoda(1);
+    //}
 
     public void jakas_metoda(int index)
     {

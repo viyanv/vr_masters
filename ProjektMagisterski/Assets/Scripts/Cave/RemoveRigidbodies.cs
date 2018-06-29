@@ -7,12 +7,12 @@ public class RemoveRigidbodies : MonoBehaviour
 
     void Start()
     {
-        if (!LZWPlib.Core.Instance.isServer)
-        {
-            var rbs = GameObject.FindObjectsOfType<Rigidbody>();
-            foreach (var rb in rbs)
-                Destroy(rb);
-        }
+        //if (!LZWPlib.Core.Instance.isServer)
+        //{
+        //    var rbs = GameObject.FindObjectsOfType<Rigidbody>();
+        //    foreach (var rb in rbs)
+        //        Destroy(rb);
+        //}
     }
 
 }
