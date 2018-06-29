@@ -7,6 +7,7 @@ public class ControllerGrabObject : MonoBehaviour {
     //1
     private SteamVR_TrackedObject trackedObj;
     public AudioSource orbSound;
+<<<<<<< HEAD:ProjektMagisterski/Assets/Scripts/Vive/ControllerGrabObject.cs
     public AudioSource kettleSoundEnd;
     public AudioSource kettleSoundAll;
     public static bool alreadyClicked = false;
@@ -30,6 +31,8 @@ public class ControllerGrabObject : MonoBehaviour {
      yield break;
  }
 
+=======
+>>>>>>> parent of 577fee1... Pretty much done (for Vive):ProjektMagisterski/Assets/Scripts/ControllerGrabObject.cs
     //2
     private SteamVR_Controller.Device Controller
     {
@@ -87,17 +90,6 @@ public class ControllerGrabObject : MonoBehaviour {
 
         var joint = AddFixedJoint();
         joint.connectedBody = objectInHand.GetComponent<Rigidbody>();
-
-        if (objectInHand.CompareTag("kettle"))
-        {
-            if (!alreadyClicked)
-            {
-                FadeSound();
-                alreadyClicked = true;
-            }
-            
-        }
-
     }
 
     private FixedJoint AddFixedJoint()
@@ -124,6 +116,7 @@ public class ControllerGrabObject : MonoBehaviour {
             orbSound.Play();
             Destroy(objectInHand);
         }
+<<<<<<< HEAD:ProjektMagisterski/Assets/Scripts/Vive/ControllerGrabObject.cs
         if (objectInHand.CompareTag("orb2kettle"))
         {
             TimerVive.score += 1;
@@ -131,6 +124,8 @@ public class ControllerGrabObject : MonoBehaviour {
             kettleSoundAll.Play();
             Destroy(objectInHand);
         }
+=======
+>>>>>>> parent of 577fee1... Pretty much done (for Vive):ProjektMagisterski/Assets/Scripts/ControllerGrabObject.cs
         objectInHand = null;
     }
 
